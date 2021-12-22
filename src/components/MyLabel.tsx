@@ -21,6 +21,10 @@ export interface ButtonProps {
    * The custom color of the font
    */
   fontColor?: string;
+  /**
+   * The custom background color of the label
+   */
+  bgColor?: string;
 }
 
 export const MyLabel = ({
@@ -29,12 +33,12 @@ export const MyLabel = ({
   color = 'primary',
   allCaps = false,
   fontColor = '#000000',
+  bgColor = '#ffffff',
 }: ButtonProps) => {
   return (
     <span
       className={`label ${size} text-${color} ${allCaps ? 'capitalize' : ''}`}
-      style={{ color: fontColor }}
-      >
+      style={{ color: fontColor, backgroundColor: bgColor }}>
       {label}
     </span>
   );
