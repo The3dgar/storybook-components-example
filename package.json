@@ -21,8 +21,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "react": "^16.0.0",
-    "typescript": "^4.0.0"
+    "react": "^16.0.0"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
