@@ -23,6 +23,7 @@
   "peerDependencies": {
     "react": "^16.0.0"
   },
+  "keywords": ["storybook", "component", "typescript", "react"],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
